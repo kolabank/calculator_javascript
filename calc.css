@@ -1,9 +1,9 @@
-td {
+.calcButton {
     background-color: rgb(85, 126, 179);
     border: solid 1px;
     border-radius: 15%;
     text-align: center;
-    height: 35px;
+    height: 30px;
     width: 30px;
     display: table-cell;
     border-spacing: 10px;
@@ -29,3 +29,15 @@ table {
 p {
     text-align: center;
 }
+
+
+/* td {
+    background-color: rgb(85, 126, 179);
+    border: solid 1px;
+    border-radius: 15%;
+    text-align: center;
+    height: 35px;
+    width: 30px;
+    display: table-cell;
+    border-spacing: 10px;
+} */
