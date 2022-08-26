@@ -33,7 +33,7 @@ function numberClickedLeft() {
             leftNumber = intValue;
 
         } else if (!Number.isInteger(parseInt(lastClicked))) {
-            isLeft = false;
+            isLeft = false; //to take execution to numberClickedRight once operator has been addressed
             switch (lastClicked) {
                 case "x":
                     operator = "multiply";
@@ -67,6 +67,7 @@ function numberClickedLeft() {
             }
 
             clickedValue = ""
+
         }
 
 
@@ -114,6 +115,8 @@ function numberClickedRight(param) {
 
         }
     }
+
+    isLeft = true;
 
 }
 
